@@ -1,0 +1,51 @@
+<!--declares this as an html file-->
+<!DOCTYPE html>
+<!--sets language for file-->
+<html lang="en">
+	<head>
+		<!--implements stylesheet to edit content-->
+		<link rel="stylesheet" href="Styles.css">
+		<meta charset="UTF-8">
+		<!--provides tab title-->
+		<title>Robert's Barbershop</title>
+		<!--provides icon for webpage tab-->
+		<link rel="icon" type="image/x-icon" href="images/hair-clipper.png">
+	</head>
+	<body>
+		<header>
+			<h1>Rob Cuts</h1>
+			<nav>
+				<!--nav link contains all links to the other pages contained on the website. Allows for easier mobility through the page!-->
+				<a href="index.html" class="external-nav">Home</a> |    
+				<a href="Services.html" class="external-nav">Prices</a> |    
+				<a href="Contact.html" class="external-nav">Contact</a>	|
+				<a href="Appoint.html" class="external-nav">Request An Appointment</a>
+			</nav>
+		</header>
+		<main>
+			<!--code below is all prices and haircuts provide by the owner!-->
+			<h2 id="Services">Services</h2>
+			<p class="haircuts">Basic Haircuts: $15</p>
+			<p class="haircuts">Fades: $15</p>
+			<p class="haircuts">Hairline Lineups: $15</p>
+			<p class="haircuts">Beard Lineups: $15</p>
+			<!--below is the media displayed on the services page!-->
+			<img src="images/IMG_7832.jpg" alt="lineup">
+			<video controls width="360" autoplay loop>
+				<source src="images/haircut1.mp4">
+			</video>
+			<video controls width="360" autoplay loop>
+				<source src="images/selfcut.mp4">
+			</video>
+			<video controls width="360" autoplay loop>
+				<source src="images/haircut3.mp4">
+			</video>
+		</main>
+		<footer>
+			<!--footer contains a link to the contact page and validation of CSS and HTML!-->
+			<a href="Contact.html">Contact Me</a> <br>
+			<a href="https://validator.w3.org/check?uri=referer" referrerpolicy="unsafe-url">Validate HTML</a> <br>
+        	<a href="https://jigsaw.w3.org/css-validator/check/referer" referrerpolicy="unsafe-url">Validate CSS</a>
+		</footer>
+	</body>
+</html>
